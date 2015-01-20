@@ -192,7 +192,7 @@ function wptreehouse_badges_refresh_profile() {
 
 	}
 
-	die(); // We all will. Make the most of your time.
+	die();
 }
 
 add_action('wp_ajax_wptreehouse_badges_refresh_profile', 'wptreehouse_badges_refresh_profile' );
